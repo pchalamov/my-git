@@ -1,0 +1,25 @@
+git log path/to/file    -> shows the commits that changed this file
+
+git annotate path/to/file   -> show s the changes summarized by user and by changed line (not every line is a separate commit)
+
+git diff   -> shows the changes in your current copy (unstaged) and the git  - in essesnce what would you change if you were to commit
+
+git diff HEAD..HEAD~1    -> shows the changes to file in the certain directory between the current version and the latest commit.
+
+git clean -f    -> deletes (forever) all the files that u worked on that are not commited
+
+git clean path/to/file   ->deletes an uncommited file
+
+git checkout path/to/file    -> deletes the unstaged file forever (the file goes to its orignial copy version)
+
+git reset HEAD path/to/file/or/folder    -> moves a file from staged to unstaged
+
+
+.gitignore    -> directory in which you can specify files which will be ignored in commits - i.e. *.txt would ignore all .txt files when u commit
+
+
+
+
+git checkout #hash# path/to/file    -> takes the version of the file from a certain #hash#
+
+
